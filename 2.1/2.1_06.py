@@ -1,0 +1,5 @@
+n = input()
+p = int(input())
+w = int(input())
+m = int(input())
+print(f"Чек\n{n} - {w}кг - {p}руб/кг\nИтого: {p * w}руб\nВнесено: {m}руб\nСдача: {m - (p * w)}руб")
