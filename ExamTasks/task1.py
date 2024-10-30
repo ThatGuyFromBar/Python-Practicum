@@ -1,9 +1,6 @@
 def main():
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    r = (a ** b) % (a + c)
-    print(f"({a} ^ {b}) mod ({a} + {c}) = {r}")
+    a, b, c = [int(input()) for i in range(3)]
+    print(f"({a} ^ {b}) mod ({a} + {c}) = {(a ** b) % (a + c)}")
 
 
 if __name__ == "__main__":
